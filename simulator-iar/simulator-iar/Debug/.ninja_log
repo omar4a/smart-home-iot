@@ -1,0 +1,60 @@
+# ninja log v5
+1	168	7568666295558060	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+330	384	7568416117869966	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/temp.o	768f4a0ee0d2731d
+174	251	7568666296435707	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+10	636	7568661752118317	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/project.o	8ac8e550fa1bb60d
+1	401	7568670314961795	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+10	425	7568670315310884	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/project.o	8ac8e550fa1bb60d
+432	506	7568670316128627	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+2	175	7568671486102927	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+202	288	7568671487212048	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+9	253	7568673009925389	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/project.o	8ac8e550fa1bb60d
+258	325	7568673010663404	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+1	362	7568673215977544	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/project.o	8ac8e550fa1bb60d
+367	459	7568673216974880	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+38	398	7568674762883871	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/project.o	8ac8e550fa1bb60d
+405	480	7568674763751557	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+2	353	7568684705500156	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+359	423	7568684706268079	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+1	274	7568689267466522	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+2	366	7568690070342740	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+373	464	7568690071371011	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+4	275	7568700619156681	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+2	141	7568700796361549	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Obj/main.o	d02c138c5ec56e65
+148	220	7568700797170783	F:/ahmed/intro emb/last pp/simulator-iar/Debug/Exe/project.out	aa7d060525af0865
+2	465	7568712902632982	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+13	496	7568712902885052	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/project.o	88ce72d726a78e65
+508	839	7568712906443542	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	297	7568743624365395	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+305	403	7568743625475599	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	193	7568745102770780	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/project.o	88ce72d726a78e65
+201	286	7568745103613687	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+3	303	7568748685117162	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/project.o	88ce72d726a78e65
+311	400	7568748686223624	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	171	7568751433878140	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+179	258	7568751434833474	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	289	7568752107547734	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+297	376	7568752108311458	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	173	7568752766416023	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+181	261	7568752767311896	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	179	7568754927383172	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+187	260	7568754928272961	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	278	7568757050475124	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+286	358	7568757051337026	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	170	7568761322222781	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+178	264	7568761323290168	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	166	7568761703148097	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+174	258	7568761703947289	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	291	7568774163465640	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+299	385	7568774164445774	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+7	455	7568948809014805	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+172	515	7568948809447927	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/project.o	88ce72d726a78e65
+526	743	7568948811826539	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	325	7568982197074885	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+334	435	7568982198180113	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+1	169	7568982490419059	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+178	250	7568982491212861	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+10	609	7569047293504492	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+618	879	7569047296300521	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1
+2	354	7569057519955673	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Obj/main.o	7cb16ffef2afe489
+364	470	7569057521163393	C:/Users/omari/OneDrive/Desktop/simulator-iar/simulator-iar/Debug/Exe/project.out	21d70dc63ac064b1

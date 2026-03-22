@@ -1,0 +1,220 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  26/Dec/2024  10:42:32
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\Exe\project.out
+#    Map file     =
+#        C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\List\project.map
+#    Command line =
+#        -f
+#        C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\Exe\project.out.rsp
+#        (C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\Obj\main.o
+#        C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\Obj\project.o
+#        --no_out_extension -o
+#        C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\Exe\project.out
+#        --map
+#        C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\List\project.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x40
+  .intvec   ro code          0x0    0x40  vector_table_M.o [4]
+                          - 0x40    0x40
+
+"P1":                              0x85c
+  .text     ro code         0x40   0x414  project.o [1]
+  .text     ro code        0x454   0x1e0  main.o [1]
+  .text     ro code        0x634    0x40  sprintf.o [2]
+  .text     ro code        0x674   0x136  xprintftiny.o [2]
+  .text     ro code        0x7aa     0xa  xsprout.o [2]
+  .text     ro code        0x7b4    0x36  strlen.o [4]
+  .text     ro code        0x7ea     0x2  vectortrap_M.o [4]
+  .text     ro code        0x7ec    0x22  fpinit_M.o [3]
+  .text     ro code        0x810    0x1e  cmain.o [4]
+  .text     ro code        0x82e     0x4  low_level_init.o [2]
+  .text     ro code        0x832     0x4  exit.o [2]
+  .text     ro code        0x838     0xa  cexit.o [4]
+  .text     ro code        0x844    0x14  exit.o [5]
+  .text     ro code        0x858    0x1c  cstartup_M.o [4]
+  .rodata   const          0x874    0x10  main.o [1]
+  .rodata   const          0x884     0xc  main.o [1]
+  .rodata   const          0x890     0xc  main.o [1]
+                         - 0x89c   0x85c
+
+"P2":                             0x1000
+  CSTACK             0x2000'0000  0x1000  <Block>
+    CSTACK  uninit   0x2000'0000  0x1000  <Block tail>
+                   - 0x2000'1000  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x89c     0x3'ffff  0x3'f764
+  0x2000'1000  0x2000'7fff    0x7000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\Obj: [1]
+    main.o                480       40
+    project.o           1'044
+    -------------------------------------------
+    Total:              1'524       40
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    sprintf.o              64
+    xprintftiny.o         310
+    xsprout.o              10
+    -------------------------------------------
+    Total:                392
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    strlen.o               54
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    -------------------------------------------
+    Total:                188
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6
+    Linker created                        4'096
+-----------------------------------------------
+    Grand Total:        2'164       40    4'096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                       0x811         Code  Gb  cmain.o [4]
+ADC0_Init                   0x209   0x7e  Code  Gb  project.o [1]
+ADC0_Read                   0x287   0x1a  Code  Gb  project.o [1]
+BusFault_Handler            0x7eb         Code  Wk  vectortrap_M.o [4]
+Buzzer_Init                 0x2bb   0x26  Code  Gb  project.o [1]
+Buzzer_Off                  0x2ef    0xe  Code  Gb  project.o [1]
+Buzzer_On                   0x2e1    0xe  Code  Gb  project.o [1]
+CSTACK$$Base          0x2000'0000          --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'1000          --   Gb  - Linker created -
+ConvertToTemperature        0x2a1   0x1a  Code  Gb  project.o [1]
+DebugMon_Handler            0x7eb         Code  Wk  vectortrap_M.o [4]
+Disable_PA2                  0xe3   0x12  Code  Gb  project.o [1]
+Disable_PC5                 0x1a3    0xe  Code  Gb  project.o [1]
+Enable_PA2                   0xd1   0x12  Code  Gb  project.o [1]
+Enable_PC5                  0x195    0xe  Code  Gb  project.o [1]
+HardFault_Handler           0x7eb         Code  Wk  vectortrap_M.o [4]
+Init_PA2                     0x7b   0x56  Code  Gb  project.o [1]
+Init_PA4                     0xf5   0x56  Code  Gb  project.o [1]
+Init_PB3                    0x1b1   0x4c  Code  Gb  project.o [1]
+Init_PC5                    0x14b   0x4a  Code  Gb  project.o [1]
+MemManage_Handler           0x7eb         Code  Wk  vectortrap_M.o [4]
+NMI_Handler                 0x7eb         Code  Wk  vectortrap_M.o [4]
+PendSV_Handler              0x7eb         Code  Wk  vectortrap_M.o [4]
+Region$$Table$$Base           0x0          --   Gb  - Linker created -
+Region$$Table$$Limit          0x0          --   Gb  - Linker created -
+SVC_Handler                 0x7eb         Code  Wk  vectortrap_M.o [4]
+SysTick_Handler             0x7eb         Code  Wk  vectortrap_M.o [4]
+SysTick_Wait                 0x67   0x14  Code  Gb  project.o [1]
+SysTick_Wait1ms              0x41   0x26  Code  Gb  project.o [1]
+UART0_Handler               0x38f   0x10  Code  Gb  project.o [1]
+UART0_Init                  0x2fd   0x6a  Code  Gb  project.o [1]
+UART0_WriteChar             0x367   0x12  Code  Gb  project.o [1]
+UART0_WriteString           0x379   0x16  Code  Gb  project.o [1]
+UsageFault_Handler          0x7eb         Code  Wk  vectortrap_M.o [4]
+_PrintfTiny                 0x68d  0x11e  Code  Gb  xprintftiny.o [2]
+_SProut                     0x7ab    0xa  Code  Gb  xsprout.o [2]
+__cmain                     0x811         Code  Gb  cmain.o [4]
+__exit                      0x845   0x14  Code  Gb  exit.o [5]
+__iar_init_vfp              0x7ed         Code  Gb  fpinit_M.o [3]
+__iar_program_start         0x859         Code  Gb  cstartup_M.o [4]
+__low_level_init            0x82f    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                0x0         Data  Gb  vector_table_M.o [4]
+_call_main                  0x81d         Code  Gb  cmain.o [4]
+_exit                       0x839         Code  Gb  cexit.o [4]
+exit                        0x833    0x4  Code  Gb  exit.o [2]
+main                        0x455  0x1e0  Code  Gb  main.o [1]
+out                         0x675   0x18  Code  Lc  xprintftiny.o [2]
+read_magnetic_switch        0x1fd    0xc  Code  Gb  project.o [1]
+sprintf                     0x635   0x40  Code  Gb  sprintf.o [2]
+strlen                      0x7b5         Code  Gb  strlen.o [4]
+
+
+[1] = C:\Users\omari\OneDrive\Desktop\simulator-iar\simulator-iar\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  2'164 bytes of readonly  code memory
+     40 bytes of readonly  data memory
+  4'096 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
